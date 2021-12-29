@@ -1,0 +1,20 @@
+{
+  "name": "revbits-secrets",
+  "version": "1.0.0",
+  "description": "\"RevBits PAM secrets manager plugin securely fetches secrets from RevBits PAM.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./demo/test.js"
+  },
+  "dependencies": {
+    "aes-everywhere": "^1.0.0",
+    "axios": "^0.24.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.19.0",
+    "express": "^4.17.1",
+    "jsbn": "^1.1.0"
+  },
+  "author": "RevBits",
+  "license": "Apache License, Version 2.0"
+}
