@@ -9,7 +9,7 @@ RevBits PAM secrets manager plugin securely fetches secrets from RevBits PAM.
 Pull git repository
 
 ```
-git clone git@www.revbits.co:ENPAST-SRV/pam-credentials-plugin.git
+gh repo clone RevBits/PAM-SDK
 ```
 
 (See README.md in relevant directory for more information.)

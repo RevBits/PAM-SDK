@@ -13,7 +13,7 @@ const app = express();
 /* Starting http server with the port  */
 /* ----------------------------------- */
 const port = process.env.PORT || 5000;
-app.listen(port, () => {
+app.listen(port, async () => {
     console.log(`Server running on port ${port}`);
 });
 
